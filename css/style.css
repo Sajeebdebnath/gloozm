@@ -1,0 +1,145 @@
+body{
+    background: white;
+}
+.navbar{
+    background: black;
+}
+.navbar .nav-item{
+    padding-left: 1.5em;
+}
+.navbar .nav-item .nav-link{
+    text-transform: uppercase;
+}
+#slider .carousel-item{
+    height: 450px;
+}
+
+#slider .carousel-img1{
+    background: url('../img/image1.jpeg');
+    background-size: cover;
+}
+#slider .carousel-img2{
+    background: url('../img/image2.jpeg');
+    background-size: cover;
+}
+#slider  .carousel-img3{
+    background: url('../img/image3.jpeg');
+    background-size: cover;
+}
+#home-icon .fas{
+    font-size: 50px;
+}
+#get-started{
+    background: url("../img/bg1.jpeg");
+    background-size: cover;
+    min-height: 250px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#get-started .get-overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+#home-video{
+    background: url("../img/people.jpeg");
+    background-size: cover;
+    min-height: 250px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#home-video .home-overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+#home-video .fas{
+    font-size: 50px;
+    color: red;
+}
+#photo-gallery img{
+    min-height: 250px;
+}
+#copyright{
+    background: black;
+    color: white;
+    text-align: center;
+}
+/* About Page Css */
+#page-header{
+    background: url('../img/people.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 250px;
+    position: relative;
+}
+.page-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color:white;
+    text-align: center;
+}
+#what-do img{
+    width: 350px;
+    height: 350px;
+}
+#about-icon .fas{
+    font-size: 50px;
+   
+}
+
+/* Services CSS */
+#service-header{
+    background: url('../img/image2.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 250px;
+    position: relative;
+    background-position: center;
+}
+
+/* Blog CSS */
+#blog-header{
+    background: url('../img/image5.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 250px;
+    position: relative;
+    background-position: center;
+}
+/* contact CSS */
+#contact-header{
+    background: url('../img/image3.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 250px;
+    position: relative;
+    background-position: center;
+}
+@media(max-width:768px){
+    .navbar .nav-item{
+        padding-left: 0em;
+    }
+    .navbar .nav-item .nav-link{
+        padding-left: 0em;
+    }
+}
+@media (max-width: 480px) {
+    .carousel h1 {
+      font-size: 2.5rem; }
+    #get-started{
+        min-height: 400px;
+    }
+ }
